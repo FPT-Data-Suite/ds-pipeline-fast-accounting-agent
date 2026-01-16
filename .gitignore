@@ -1,0 +1,6 @@
+logs
+tmp
+ssl
+.idea
+vendor-config.env
+agent.env

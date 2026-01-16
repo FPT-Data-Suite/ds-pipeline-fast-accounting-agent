@@ -1,0 +1,6 @@
+- pipeline.id: ct00
+  path.config: pipelines/ct00.conf 
+- pipeline.id: dmdvcs
+  path.config: pipelines/dmdvcs.conf
+- pipeline.id: dmkh
+  path.config: pipelines/dmkh.conf

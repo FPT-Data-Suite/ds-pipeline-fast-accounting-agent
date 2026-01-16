@@ -1,0 +1,13 @@
+version: "v3"
+services:
+  logstash:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    env_file:
+      - ./agent.env
+      - ./vendor-config.env
+    volumes:
+      - ./config:/usr/share/logstash/config
+      - ./pipelines:/usr/share/logstash/pipelines
+      - ./ssl:/usr/share/logstash/ssl
