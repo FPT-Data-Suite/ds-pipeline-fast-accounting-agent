@@ -11,3 +11,6 @@ services:
       - ./config:/usr/share/logstash/config
       - ./pipelines:/usr/share/logstash/pipelines
       - ./ssl:/usr/share/logstash/ssl
+      # - logstash_data:/usr/share/logstash/data
+volumes:
+  logstash_data:
