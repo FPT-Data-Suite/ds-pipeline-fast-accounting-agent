@@ -4,3 +4,5 @@ ssl
 .idea
 vendor-config.env
 agent.env
+entrypoint.sh
+Dockerfilequang.text
